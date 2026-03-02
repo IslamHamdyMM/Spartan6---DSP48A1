@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/Digital_IC_Design_Doploma_By_Kareem_W/Week4/Assignment4_Extra/3-QuestionThree_Sequence_DIV3_Detector
+vpipe_reg_sync
+!s110 1772450892
+!i10b 1
+!s100 =[PiCYAz5Dm2^9nFSLH7=3
+I8;`oP]iCaMH3:nP0cNzz31
+VDg1SIo80bB@j0V0VzS_@n1
+dE:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaSim
+w1772450887
+8E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaSim/pipe_reg_sync.v
+FE:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaSim/pipe_reg_sync.v
+L0 1
+OL;L;10.6c;65
+r1
+!s85 0
+31
+!s108 1772450892.000000
+!s107 E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaSim/pipe_reg_sync.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaSim/pipe_reg_sync.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+tCvgOpt 0

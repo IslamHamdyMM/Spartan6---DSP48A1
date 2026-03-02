@@ -1,0 +1,8 @@
+{E:/Digital_IC_Design_Doploma_By_Kareem_W/Project 1 - DSP48A1/QuestaSim/pipe_reg_sync.v} {1 {vlog -work work -vopt -stats=none {E:/Digital_IC_Design_Doploma_By_Kareem_W/Project 1 - DSP48A1/QuestaSim/pipe_reg_sync.v}
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module pipe_reg_sync
+
+Top level modules:
+	pipe_reg_sync
+
+} {} {}}

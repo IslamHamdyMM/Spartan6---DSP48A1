@@ -1,0 +1,3 @@
+module Spartan6_DSP48A1();
+
+endmodule

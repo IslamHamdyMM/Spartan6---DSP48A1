@@ -1,0 +1,33 @@
+m255
+K4
+z2
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint
+vpipe_reg_sync
+!s110 1772451471
+!i10b 1
+!s100 07cM2lI:dG0HI=?l]QUoG1
+IJ8UOY2kZag7c2^mnhmDl53
+R0
+w1772451463
+8E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/pipe_reg_sync.v
+FE:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/pipe_reg_sync.v
+!i122 4
+L0 1 31
+VDg1SIo80bB@j0V0VzS_@n1
+OL;L;2021.1;73
+r1
+!s85 0
+31
+!s108 1772451471.000000
+!s107 E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/pipe_reg_sync.v|
+!s90 E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/pipe_reg_sync.v|-work|work|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+tCvgOpt 0
