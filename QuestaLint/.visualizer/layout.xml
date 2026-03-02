@@ -1,0 +1,21 @@
+<LayoutInfo version="1" CurrentRTLLayout="Default">
+ <Layout Name="Default" Type="IDE_pref">
+  <dockareas left="300" top="0" right="1425" bottom="243"/>
+  <taborder left="zinflownavigator+zindetails+zincdcdutview+" right="zinschematicview+" bottom="transcript+zinmsgviewer+zinlintMsgView+zinlintDesignMetricsView+zinlintDesignInfoView+zinlintMsgStatusHistoryView+zinlintMsgDashboardView+"/>
+  <activetab left="zincdcdutview" right="zinschematicview" activewindow="zinschematicview" bottom="zinlintMsgView"/>
+  <window title="Flow Navigator" type="zinflownavigator" visible="1" y="0" undocked="0" x="0" dock_location="left"/>
+  <window title="Details" type="zindetails" visible="1" y="0" undocked="0" x="0" dock_location="left"/>
+  <window title="Design" type="zincdcdutview" visible="1" y="0" undocked="0" x="0" dock_location="left"/>
+  <window title="Schematic 1" type="zinschematicview" visible="1" y="0" undocked="0" x="0" dock_location="right"/>
+  <window type="transcript" visible="1" y="0" undocked="0" x="0" dock_location="bottom"/>
+  <window title="Message Viewer" type="zinmsgviewer" visible="1" y="0" undocked="0" x="0" dock_location="bottom"/>
+  <window title="Lint Checks" type="zinlintMsgView" visible="1" y="0" undocked="0" x="0" dock_location="bottom"/>
+  <window title="Design Metrics" type="zinlintDesignMetricsView" visible="1" y="0" undocked="0" x="0" dock_location="bottom"/>
+  <window title="Design Information" type="zinlintDesignInfoView" visible="1" y="0" undocked="0" x="0" dock_location="bottom"/>
+  <window title="Status History" type="zinlintMsgStatusHistoryView" visible="1" y="0" undocked="0" x="0" dock_location="bottom"/>
+  <window title="Lint Dashboard" type="zinlintMsgDashboardView" visible="1" y="0" undocked="0" x="0" dock_location="bottom"/>
+  <window height="1013" width="1920" type="rtl" visible="1" y="-9" undocked="0" x="-1"/>
+  <window type="source" visible="1" y="0" undocked="0" x="0" dock_location="center"/>
+  <window title="Lint Summary" type="zinlintMsgSummaryView" visible="0" y="0" undocked="0" x="0" dock_location="right"/>
+ </Layout>
+</LayoutInfo>

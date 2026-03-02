@@ -1,0 +1,3 @@
+1- I just finished the design of the reg pipeline module 
+2- I prepared the local and remote repo for this project using git and github
+3- I organized the project 
