@@ -1,13 +1,23 @@
 >8
 v366
-t7
-c8
-#0 p0 @zi_dff_o18_i18_5*i1_i18_3*i1
-#1 p277 @zi_mux_o18_i1_2*i18
-#2 p442 @zi_const_18'b0_o18
-#3 p570 @zi_const_1'b0_o1
-#4 p691 @zi_oper_16_o1_2*i1
-#5 p837 @zi_const_1'b1_o1
-#6 p958 @zi_assign_o18_i18
-#7 p1091 @pipe_reg_sync
+t17
+c18
+#8 p2668 @zi_const_18'b0_o18
+#0 p0 @zi_dff_o8_i8_5*i1_i8_3*i1
+#1 p273 @zi_mux_o8_i1_2*i8
+#2 p435 @zi_const_8'b0_o8
+#3 p559 @zi_oper_29_o1_2*i1
+#4 p705 @zi_assign_o8_i8
+#5 p835 @pipe_reg_1771305960
+#6 p2224 @zi_dff_o18_i18_5*i1_i18_3*i1
+#7 p2503 @zi_mux_o18_i1_2*i18
+#9 p2796 @zi_assign_o18_i18
+#10 p2929 @pipe_reg_538580350
+#11 p4323 @pipe_reg_241385043
+#12 p5719 @zi_dff_o48_i48_5*i1_i48_3*i1
+#13 p5999 @zi_mux_o48_i1_2*i48
+#14 p6165 @zi_const_0_o48
+#15 p6286 @zi_assign_o48_i48
+#16 p6420 @pipe_reg_694293042
+#17 p7820 @Spartan6_DSP48A1
 <8

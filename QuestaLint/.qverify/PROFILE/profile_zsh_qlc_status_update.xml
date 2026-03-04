@@ -35,35 +35,35 @@
 	<edge>
 		<from>1</from>
 		<to>2</to>
-		<time>2166613650</time>
+		<time>2265280107</time>
 		<mem>0</mem>
 		<calls>1</calls>
 	</edge>
 	<edge>
 		<from>2</from>
 		<to>3</to>
-		<time>29182</time>
+		<time>30343</time>
 		<mem>0</mem>
 		<calls>6</calls>
 	</edge>
 	<edge>
 		<from>2</from>
 		<to>4</to>
-		<time>84501135</time>
+		<time>81174778</time>
 		<mem>0</mem>
 		<calls>1</calls>
 	</edge>
 	<edge>
 		<from>4</from>
 		<to>5</to>
-		<time>1793866</time>
+		<time>1689185</time>
 		<mem>0</mem>
 		<calls>1</calls>
 	</edge>
 	<edge>
 		<from>4</from>
 		<to>6</to>
-		<time>80428111</time>
+		<time>76270301</time>
 		<mem>0</mem>
 		<calls>1</calls>
 	</edge>

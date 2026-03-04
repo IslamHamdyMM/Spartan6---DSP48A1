@@ -1,6 +1,10 @@
 >8
 v366
-t0
-c1
-#0 p0 @pipe_reg_sync
+t4
+c5
+#0 p0 @pipe_reg_1771305960
+#1 p972 @pipe_reg_538580350
+#2 p1949 @pipe_reg_241385043
+#3 p2926 @pipe_reg_694293042
+#4 p3903 @Spartan6_DSP48A1
 <8

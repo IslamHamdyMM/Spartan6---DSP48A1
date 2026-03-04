@@ -1,5 +1,5 @@
 var designData = { "DesignInfo" : [
-{ "Id" : "0" , "Name":"Register Bits", "Data": ["18"] },
+{ "Id" : "0" , "Name":"Register Bits", "Data": ["110"] },
 { "Id" : "1" , "Name":"Latch Bits", "Data": ["0"] },
 { "Id" : "2" , "Name":"User-specified Blackboxes", "Data": [] },
 { "Id" : "3" , "Name":"Inferred Blackboxes", "Data": [] },
@@ -7,6 +7,6 @@ var designData = { "DesignInfo" : [
 { "Id" : "5" , "Name":"Unresolved Modules", "Data": [] },
 { "Id" : "6" , "Name":"Hierarchical IPs", "Data": [] }]};
 
-var qlcDesignName ="pipe_reg_sync";
+var qlcDesignName ="Spartan6_DSP48A1";
 var qlcVersion ="Version 2021.1 4558100 win64 28-Jan-2021";
 var qlcDesignQuality ="100.000000";

@@ -1,4 +1,4 @@
-m_allSignalsCdcSignals : 1 , m_preferCdcSignalReporting : 0, m_topModule : pipe_reg_sync
+m_allSignalsCdcSignals : 1 , m_preferCdcSignalReporting : 0, m_topModule : Spartan6_DSP48A1
 
-Module : pipe_reg_sync
+Module : Spartan6_DSP48A1
 

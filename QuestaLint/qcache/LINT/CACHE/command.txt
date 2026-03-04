@@ -21,7 +21,7 @@ C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek
 Command: qlc_status_update
 Command Arguments:
     -zdb
-      E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/qcache/DB/zdb_14
+      E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/qcache/DB/zdb_31
     -db
       E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/lint.db
 

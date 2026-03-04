@@ -6,6 +6,11 @@ R0
 R0
 R0
 R0
+R0
+R0
+R0
+R0
+R0
 13
 !s112 1.1
 !i10d 8192
@@ -14,9 +19,9 @@ R0
 cModel Technology
 dE:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint
 Tzi_opt_def_416669889_1
-!s110 1772451476
-V_LQf?g5J]@6NF8><d8a`Q0
-09 13 4 z0in_work pipe_reg_sync fast 0
+!s110 1772635612
+Voch^K_D8en_hLR[EL;Q9S0
+09 16 4 z0in_work Spartan6_DSP48A1 fast 0
 !s96 mlvalmap
 !s102 +cover=f
 !s124 OEM100

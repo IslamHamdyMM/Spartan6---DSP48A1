@@ -1,1 +1,17 @@
 pipe_reg_sync.aedb:42934
+pipe_reg_5_1579275633.aedb:54136
+pipe_reg_5_1915318864.aedb:63132
+pipe_reg_5_1140497998.aedb:72129
+pipe_reg_5_1646832493.aedb:81181
+Spartan6_DSP48A1.aedb:346893
+pipe_reg_355084172.aedb:112599
+pipe_reg_787544445.aedb:123700
+pipe_reg_127259972.aedb:134775
+pipe_reg_1226641786.aedb:169094
+pipe_reg_1165118386.aedb:180195
+pipe_reg_1949472866.aedb:191271
+pipe_reg_1734077266.aedb:202391
+pipe_reg_1771305960.aedb:302446
+pipe_reg_538580350.aedb:313547
+pipe_reg_241385043.aedb:324622
+pipe_reg_694293042.aedb:335741

@@ -2,9 +2,9 @@
 Lint Check Report
 Questa Lint  Version 2021.1 4558100 win64 28-Jan-2021
 
-Timestamp            : Mon Mar  2 13:37:58 2026
+Timestamp            : Wed Mar  4 16:46:55 2026
 Description          : Report for referring checks count, check violations details, and  design information
-Design               : pipe_reg_sync
+Design               : Spartan6_DSP48A1
 Database             : E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/lint.db
 Design Quality Score : 100%
 
@@ -65,7 +65,7 @@ Section 3 : Design Information
 -----------
 | Summary |
 -----------
-  Register Bits                           : 18
+  Register Bits                           : 110
   Latch Bits                              : 0
   User-specified Blackboxes               : 0
   Inferred Blackboxes                     : 0

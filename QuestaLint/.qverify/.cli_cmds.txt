@@ -187,3 +187,246 @@ Questa Debug flags:
 
 # C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 2303
 C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint -l .qlcstatus.log  -cli -internal -cmd qlc_status_update -zdb E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/qcache/DB/zdb_14 -db E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/lint.db
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 5
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlib work
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 6
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vmap work work
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 7
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlog E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/Spartan6_DSP48A1.v -work work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 416
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint -l .elab.log  -cli -internal -cmd elab -zdb E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/qcache/DB/zdb_16 -tool lint -d Spartan6_DSP48A1 -L work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 416
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint -l .createnl.log  -cli -internal -cmd create_netlist -zdb E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/qcache/DB/zdb_16 -tool lint -d Spartan6_DSP48A1 -L work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 418
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint -l .qlcstatus.log  -cli -internal -cmd qlc_status_update -zdb E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/qcache/DB/zdb_17 -db E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/lint.db
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 625
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlib work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 626
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vmap work work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 627
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlog E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/Spartan6_DSP48A1.v -work work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 628
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlog E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/pipe_reg.v -work work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 834
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint -l .elab.log  -cli -internal -cmd elab -zdb E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/qcache/DB/zdb_19 -tool lint -d Spartan6_DSP48A1 -L work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 834
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint -l .createnl.log  -cli -internal -cmd create_netlist -zdb E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/qcache/DB/zdb_19 -tool lint -d Spartan6_DSP48A1 -L work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 836
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint -l .qlcstatus.log  -cli -internal -cmd qlc_status_update -zdb E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/qcache/DB/zdb_20 -db E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/lint.db
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 1043
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlib work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 1044
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vmap work work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 1045
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlog E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/Spartan6_DSP48A1.v -work work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 1046
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlog E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/pipe_reg.v -work work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 1252
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint -l .elab.log  -cli -internal -cmd elab -zdb E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/qcache/DB/zdb_22 -tool lint -d Spartan6_DSP48A1 -L work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 1252
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint -l .createnl.log  -cli -internal -cmd create_netlist -zdb E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/qcache/DB/zdb_22 -tool lint -d Spartan6_DSP48A1 -L work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 1254
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint -l .qlcstatus.log  -cli -internal -cmd qlc_status_update -zdb E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/qcache/DB/zdb_23 -db E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/lint.db
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 1461
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlib work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 1462
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vmap work work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 1463
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlog E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/Spartan6_DSP48A1.v -work work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 1464
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlog E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/pipe_reg.v -work work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 1671
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlib work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 1672
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vmap work work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 1673
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlog E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/Spartan6_DSP48A1.v -work work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 1674
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlog E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/pipe_reg.v -work work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 1880
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint -l .elab.log  -cli -internal -cmd elab -zdb E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/qcache/DB/zdb_26 -tool lint -d Spartan6_DSP48A1 -L work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 1880
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint -l .createnl.log  -cli -internal -cmd create_netlist -zdb E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/qcache/DB/zdb_26 -tool lint -d Spartan6_DSP48A1 -L work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 1882
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint -l .qlcstatus.log  -cli -internal -cmd qlc_status_update -zdb E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/qcache/DB/zdb_27 -db E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/lint.db
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 2089
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlib work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 2090
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vmap work work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 2091
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlog E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/Spartan6_DSP48A1.v -work work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 2092
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlog E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/pipe_reg.v -work work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 2299
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlib work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 2300
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vmap work work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 2301
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlog E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/Spartan6_DSP48A1.v -work work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 2302
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlog E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/pipe_reg.v -work work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 2508
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint -l .elab.log  -cli -internal -cmd elab -zdb E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/qcache/DB/zdb_30 -tool lint -d Spartan6_DSP48A1 -L work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 2508
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint -l .createnl.log  -cli -internal -cmd create_netlist -zdb E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/qcache/DB/zdb_30 -tool lint -d Spartan6_DSP48A1 -L work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 2510
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint -l .qlcstatus.log  -cli -internal -cmd qlc_status_update -zdb E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/qcache/DB/zdb_31 -db E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/lint.db

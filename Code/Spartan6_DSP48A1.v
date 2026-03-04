@@ -5,6 +5,7 @@ module Spartan6_DSP48A1(
     input [17:0] D,
     input [47:0] C,
     input CARRYIN,
+    input [17:0] BCIN,
 
     output [35:0] M,
     output p,
@@ -13,7 +14,7 @@ module Spartan6_DSP48A1(
 
     //Control Input Ports:
     input CLK,
-    input OPMODE,
+    input [7:0] OPMODE,
 
     //Clock Enable Input Ports:
     input CEA,
@@ -69,47 +70,37 @@ parameter RSTTYPE = "SYNC"; // or ASYNC
 
 // ||Stage One|| \\
 
-reg [17:0] A_Pip;
-reg [17:0] B_Pip;
-reg [17:0] D_Pip;
-reg [47:0] C_Pip;
+wire [17:0] A_Pip;
+wire [17:0] B_Pip;
+wire [17:0] D_Pip;
+wire [47:0] C_Pip;
+wire [7:0]  OPMODE_Pip;
 
-generate;
-    if(RSTTYPE == "SYNC")
-    pip_reg_sync   #(.REG(A0REG)) A0_REG(.In(A),.clk(CEA),.rst(RSTA),.out(A_Pip));
-    else
-    pipe_reg_async #(.REG(A0REG)) A0_REG(.In(A),.clk(CEA),.rst(RSTA),.out(A_Pip));
-endgenerate
+pipe_reg   #(.WIDTH (8),.REG(OPMODEREG),.rsttype(RSTTYPE)) OPMODE_REG(.In(OPMODE),.CE(CEOPMODE),
+                                                           .rst(RSTOPMODE),.CLK(CLK),.out(OPMODE_Pip));
+
+pipe_reg   #(.REG(A0REG),.rsttype(RSTTYPE)) A0_REG(.In(A),.CE(CEA),.rst(RSTA),.CLK(CLK),.out(A_Pip));
+pipe_reg   #(.REG(DREG),.rsttype(RSTTYPE))  D_REG (.In(D),.CE(CED),.rst(RSTD),.CLK(CLK),.out(D_Pip));
+
+pipe_reg   #(.WIDTH (48),.REG(CREG),.rsttype(RSTTYPE)) C_REG(.In(C),.CE(CEC),.rst(RSTC),.CLK(CLK),.out(C_Pip));
+
 
 reg [17:0] BINPUT;
 
-generate;
-    always @(*) begin
-        case (B_INPUT)
-            DIRECT : BINPUT = B;
-            CASCADE: BINPUT = BCIN; //BCIN Not declared yet
-            default: BINPUT = 0;
-        endcase
-    end
-    if(RSTTYPE == "SYNC")
-    pip_reg_sync   #(.REG(B0REG)) B0_REG(.In(BINPUT),.clk(CEB),.rst(RSTB),.out(B_Pip));
-    else
-    pipe_reg_async #(.REG(B0REG)) B0_REG(.In(BINPUT),.clk(CEB),.rst(RSTB),.out(B_Pip));
-endgenerate
+always @(*) begin
+    case (B_INPUT)
+        "DIRECT"  : BINPUT = B;
+        "CASCADE" : BINPUT = BCIN; 
+        default: BINPUT = 0;
+    endcase
+end
 
-generate;
-    if(RSTTYPE == "SYNC")
-    pip_reg_sync   #(.REG(DREG)) D_REG(.In(D),.clk(CED),.rst(RSTD),.out(D_Pip));
-    else
-    pipe_reg_async #(.REG(DREG)) D_REG(.In(D),.clk(CED),.rst(RSTD),.out(D_Pip));
-endgenerate
+pipe_reg   #(.REG(B0REG),.rsttype(RSTTYPE)) B0_REG(.In(BINPUT),.CE(CEB),.rst(RSTB),.CLK(CLK),.out(B_Pip));
 
-generate;
-    if(RSTTYPE == "SYNC")
-    pip_reg_sync   #(.WIDTH = 48,.REG(CREG)) C_REG(.In(C),.clk(CEC),.rst(RSTC),.out(C_Pip));
-    else
-    pipe_reg_async #(.WIDTH = 48,.REG(CREG)) C_REG(.In(C),.clk(CEC),.rst(RSTC),.out(C_Pip));
-endgenerate
+
+
+
+
 
 
 

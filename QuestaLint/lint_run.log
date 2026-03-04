@@ -2,22 +2,22 @@
 # Questa Static Verification System
 # Version 2021.1 4558100 win64 28-Jan-2021
 
-log created Mon Mar  2 13:38:02 2026 by scs 2492022 on Islam-Hamdy
+log created Wed Mar  4 16:46:59 2026 by scs 2492022 on Islam-Hamdy
 
 
 # 
 # Questa Static Verification System
 # Version 2021.1 4558100 win64 28-Jan-2021
 
-log created Mon Mar  2 13:37:55 2026 by scs 2492022 on Islam-Hamdy
+log created Wed Mar  4 16:46:51 2026 by scs 2492022 on Islam-Hamdy
 
 
 Command: netlist elaborate
 Command arguments:
     -zdb
-      E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/qcache/DB/zdb_13
+      E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/qcache/DB/zdb_30
     -tool lint
-    -d pipe_reg_sync
+    -d Spartan6_DSP48A1
     -L work
 
 Questa Debug flags:
@@ -29,40 +29,49 @@ Reading MTI mapping for library mapping
 Writing all MTI mappings to vmap output ...
 
 Top level modules:
-	pipe_reg_sync
+	Spartan6_DSP48A1
 
 Analyzing design...
--- Loading module z0in_work.pipe_reg_sync
+-- Loading module z0in_work.Spartan6_DSP48A1
 
 Performing 103 Lint Checks
 =============================
 
 Lint Stage 1 of 5 - Pre Design Elaboration (4 checks)
 ------------------------------------------------------
-Optimizing 1 design-unit (inlining 0/1 module instances):
--- Optimizing module z0in_work.pipe_reg_sync(fast)
+-- Loading module z0in_work.pipe_reg
+Optimizing 5 design-units (inlining 0/6 module instances):
+-- Optimizing module z0in_work.pipe_reg(fast)
 Lint Stage-1 100% complete [Total Progress -   7%]
 
 Lint Stage 2 of 5 - Design Elaboration (66 checks)
 ---------------------------------------------------
+-- Optimizing module z0in_work.pipe_reg(fast__1)
+Lint Stage-2  20% complete (1 out of 5 modules checked) [Total Progress -   8%]
+-- Optimizing module z0in_work.pipe_reg(fast__2)
+Lint Stage-2  40% complete (2 out of 5 modules checked) [Total Progress -  12%]
+-- Optimizing module z0in_work.pipe_reg(fast__3)
+Lint Stage-2  60% complete (3 out of 5 modules checked) [Total Progress -  15%]
+-- Optimizing module z0in_work.Spartan6_DSP48A1(fast)
+Lint Stage-2  80% complete (4 out of 5 modules checked) [Total Progress -  19%]
 Optimized design name is zi_opt_def_416669889_1
-Lint Stage-2 100% complete (1 out of 1 modules checked) [Total Progress -  23%]
-End of log Mon Mar  2 13:37:56 2026
+Lint Stage-2 100% complete (5 out of 5 modules checked) [Total Progress -  23%]
+End of log Wed Mar  4 16:46:53 2026
 
 
 # 
 # Questa Static Verification System
 # Version 2021.1 4558100 win64 28-Jan-2021
 
-log created Mon Mar  2 13:37:57 2026 by scs 2492022 on Islam-Hamdy
+log created Wed Mar  4 16:46:53 2026 by scs 2492022 on Islam-Hamdy
 
 
 Command: netlist create
 Command arguments:
     -zdb
-      E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/qcache/DB/zdb_13
+      E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/qcache/DB/zdb_30
     -tool lint
-    -d pipe_reg_sync
+    -d Spartan6_DSP48A1
     -L work
 
 Questa Debug flags:
@@ -79,7 +88,11 @@ Lint Stage-3  71% complete [Total Progress -  32%]
 Lint Stage-3  94% complete [Total Progress -  34%]
 Lint Stage-3 100% complete [Total Progress -  35%]
 Analyzing designs.
-Elaborating module 'pipe_reg_sync'.
+Elaborating module 'pipe_reg'.
+Elaborating module 'pipe_reg(1)'.
+Elaborating module 'pipe_reg(2)'.
+Elaborating module 'pipe_reg(3)'.
+Elaborating module 'Spartan6_DSP48A1'.
 
 Lint Stage 4 of 5 - Design Synthesis (1 checks)
 ------------------------------------------------
@@ -94,20 +107,20 @@ Lint Stage-5  80% complete [Total Progress -  97%]
 Lint Stage-5 100% complete [Total Progress - 100%]
 
 Lint Checking Completed
-##Time Taken (Synthesis) = 235.000000 ticks = 0.235000 secs
+##Time Taken (Synthesis) = 279.000000 ticks = 0.279000 secs
 
-End of log Mon Mar  2 13:37:58 2026
+End of log Wed Mar  4 16:46:55 2026
 
 
-# Reading design database from E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/qcache/LINT/CACHE...completed (0 (s)).
-End of log Mon Mar  2 13:38:00 2026
+# Reading design database from E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/qcache/LINT/CACHE...completed (0.002 (s)).
+End of log Wed Mar  4 16:46:56 2026
 
 
 # 
 # Questa Static Verification System
 # Version 2021.1 4558100 win64 28-Jan-2021
 
-log created Mon Mar  2 13:38:00 2026 by scs 2492022 on Islam-Hamdy
+log created Wed Mar  4 16:46:57 2026 by scs 2492022 on Islam-Hamdy
 
 
 Questa Debug flags:
@@ -115,8 +128,8 @@ Questa Debug flags:
 
 
 ## Applying Lint Waivers...
-Final Process Statistics: Max memory 217MB, CPU time 2s, Total time 4s
-End of log Mon Mar  2 13:38:01 2026
+Final Process Statistics: Max memory 218MB, CPU time 2s, Total time 4s
+End of log Wed Mar  4 16:46:57 2026
 
 
 Result Summary

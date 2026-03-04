@@ -22,5 +22,5 @@ ieee_env=C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/../iee
 infact=C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/../infact
 vhdlopt_lib=C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/../vhdlopt_lib
 vh_ux01v_lib=C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/../vh_ux01v_lib
-*RAW_COMMAND create_netlist -zdb E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/qcache/DB/zdb_13 -tool lint -d pipe_reg_sync -L work 
+*RAW_COMMAND create_netlist -zdb E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint/qcache/DB/zdb_30 -tool lint -d Spartan6_DSP48A1 -L work 
 *COMMAND create_netlist 
