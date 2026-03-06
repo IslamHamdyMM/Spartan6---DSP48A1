@@ -1,0 +1,10 @@
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+Start time: 15:18:12 on Mar 06,2026
+vlog E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/Code/pipe_reg.v E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/Code/Spartan6_DSP48A1.v -work work 
+-- Compiling module pipe_reg
+-- Compiling module Spartan6_DSP48A1
+
+Top level modules:
+	Spartan6_DSP48A1
+End time: 15:18:13 on Mar 06,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0

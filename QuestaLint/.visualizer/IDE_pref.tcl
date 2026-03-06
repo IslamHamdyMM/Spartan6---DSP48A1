@@ -2,7 +2,7 @@ set Perspective_Version   2
 #
 pref::section perspective
 set perspective_Name       {IDE_pref}
-set perspective_DateTime   {2026-03-04T16:46:58}
+set perspective_DateTime   {2026-03-04T16:57:02}
 set perspective_Directory  {E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/QuestaLint}
 set perspective_USER       {scs 2492022}
 set perspective_VisId      {2021.1}
@@ -22,7 +22,7 @@ pref::set -type bool -category General -name ListVarDeclOrder -value true -hide 
 pref::set -type int -category General -name GutterIconSize -value 30 -description { Gutter Icon Size } -label { Gutter Icon Size }
 pref::set -type int -category General -name GutterSize -value 35 -description { Gutter Size } -label { Gutter Size }
 pref::set -type int -category General -name GutterPadding -value 7 -description { Gutter Icon Padding } -label { Gutter Icon Padding }
-pref::set -type string -category General -name IDEVisibleWindows -value Lint###zinmsgviewer,zincdcdutview,zinlintDesignInfoView,zinlintDesignMetricsView,zinlintMsgStatusHistoryView,zinlintMsgDashboardView,zinlintMsgView,zinflownavigator,source,zinlintMsgSummaryView,transcript -hide -description none -label none
+pref::set -type string -category General -name IDEVisibleWindows -value Lint###transcript,zinlintDesignInfoView,zindetails,source,zinflownavigator,zinmsgviewer,zinlintMsgDashboardView,zincdcdutview,zinlintMsgSummaryView,zinlintMsgStatusHistoryView,zinlintDesignMetricsView,zinlintMsgView -hide -description none -label none
 pref::set -type bool -category General -name schSelectOnRMB -value false -hide -description none -label none
 pref::set -type category -value Startup -hide
 pref::set -type bool -category {Source Browser} -name EnableValueAnnotation -value true -hide -description {Displays signal values below their names if true} -label {Enable Value Annotation}

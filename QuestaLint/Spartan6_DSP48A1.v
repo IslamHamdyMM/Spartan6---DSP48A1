@@ -70,8 +70,8 @@ parameter RSTTYPE = "SYNC"; // or ASYNC
 
 // ||Stage One|| \\
 
-wire [17:0] A_Pip;
-wire [17:0] B_Pip;
+wire [17:0] A0_Pip;
+wire [17:0] B0_Pip;
 wire [17:0] D_Pip;
 wire [47:0] C_Pip;
 wire [7:0]  OPMODE_Pip;
@@ -79,7 +79,7 @@ wire [7:0]  OPMODE_Pip;
 pipe_reg   #(.WIDTH (8),.REG(OPMODEREG),.rsttype(RSTTYPE)) OPMODE_REG(.In(OPMODE),.CE(CEOPMODE),
                                                            .rst(RSTOPMODE),.CLK(CLK),.out(OPMODE_Pip));
 
-pipe_reg   #(.REG(A0REG),.rsttype(RSTTYPE)) A0_REG(.In(A),.CE(CEA),.rst(RSTA),.CLK(CLK),.out(A_Pip));
+pipe_reg   #(.REG(A0REG),.rsttype(RSTTYPE)) A0_REG(.In(A),.CE(CEA),.rst(RSTA),.CLK(CLK),.out(A0_Pip));
 pipe_reg   #(.REG(DREG),.rsttype(RSTTYPE))  D_REG (.In(D),.CE(CED),.rst(RSTD),.CLK(CLK),.out(D_Pip));
 
 pipe_reg   #(.WIDTH (48),.REG(CREG),.rsttype(RSTTYPE)) C_REG(.In(C),.CE(CEC),.rst(RSTC),.CLK(CLK),.out(C_Pip));
@@ -95,7 +95,61 @@ always @(*) begin
     endcase
 end
 
-pipe_reg   #(.REG(B0REG),.rsttype(RSTTYPE)) B0_REG(.In(BINPUT),.CE(CEB),.rst(RSTB),.CLK(CLK),.out(B_Pip));
+pipe_reg   #(.REG(B0REG),.rsttype(RSTTYPE)) B0_REG(.In(BINPUT),.CE(CEB),.rst(RSTB),.CLK(CLK),.out(B0_Pip));
+
+// ||Stage Two|| \\
+
+reg [17:0] Out_AS1; // Output of the pre adder subtracter of D,B
+reg [17:0] B1; // Output of mux select B Directly or output of pre adder subtracter of D,B
+
+always @(*) begin
+    if(OPMODE_Pip[6]) begin
+      Out_AS1 = D_Pip - B_Pip;
+    end
+    else begin
+        Out_AS1 = D_Pip + B_Pip;
+    end
+
+    if(OPMODE_Pip[4]) begin
+      B1 = B_Pip;
+    end
+    else begin
+        B1 = Out_AS1;
+    end   
+end;
+
+wire [17:0] A1_Pip;
+wire [17:0] B1_Pip;
+
+pipe_reg   #(.REG(B1REG),.rsttype(RSTTYPE)) B1_REG(.In(B1),.CE(CEB),.rst(RSTB),.CLK(CLK),.out(B1_Pip));
+pipe_reg   #(.REG(A1REG),.rsttype(RSTTYPE)) A1_REG(.In(A0_Pip),.CE(CEA),.rst(RSTA),.CLK(CLK),.out(A1_Pip));
+
+// ||Stage Three|| \\
+
+wire [35:0] Mul_Out;
+reg  CIC; // Carry In Cascade
+
+assign Mul_Out = B1_Pip * A1_Pip;
+assign BCOUT = B1_Pip;
+
+always @(*) begin
+    case (CARRYINSEL)
+        "CARRYIN" : CIC = CARRYIN;
+        "OPMODE5" : CIC = OPMODE_Pip[5]; 
+        default: CIC = 0;
+    endcase
+end
+
+wire [35:0] Mul_Out_Pip; //After Pipelining
+wire  CIC_Pip; // Carry In Cascade After Pipelining
+
+pipe_reg   #(.WIDTH(36),.REG(MREG),.rsttype(RSTTYPE)) M_REG(.In(Mul_Out),.CE(CEM),.rst(RSTM),.CLK(CLK),.out(Mul_Out_Pip));
+pipe_reg   #(.WIDTH(1),.REG(CARRYINREG),.rsttype(RSTTYPE)) CYI(.In(CIC),.CE(CECARRYIN),.rst(RSTCARRYIN),.CLK(CLK),.out(CIC_Pip));
+
+
+
+
+
 
 
 

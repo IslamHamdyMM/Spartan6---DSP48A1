@@ -3,3 +3,4 @@
 3- I organized the project 
 4- I added all parameters and all I/O Ports for the DSP module I have a problemm in connecting BCIN
 5-I finished the first stage
+6-I Finished the RTL code

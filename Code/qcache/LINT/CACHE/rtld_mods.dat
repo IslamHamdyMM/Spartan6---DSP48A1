@@ -1,0 +1,2191 @@
+>1
+>2
+13
+0:25:zi_dff_o8_i8_5*i1_i8_3*i1
+1:6:zi_dff
+2:1:Q
+3:1:D
+4:3:CLK
+5:2:EN
+6:3:SET
+7:3:RST
+8:2:AL
+9:2:AD
+10:3:AOE
+11:2:OE
+12:4:SRST
+<2
+>3
+2
+0:5:1 7 0
+1:2:0 
+<3
+>4
+e1;
+<4
+>5
+b0<5
+>6
+b11@2d1t0;
+@3t0;
+@4t1;
+@5t1;
+@6t1;
+@7t1;
+@8t1;
+@9t0;
+@10t1;
+@11t1;
+@12t1;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+6
+0:17:zi_mux_o8_i1_2*i8
+1:6:zi_mux
+2:1:O
+3:1:S
+4:2:D1
+5:2:D0
+<2
+>3
+2
+0:5:1 7 0
+1:2:0 
+<3
+>4
+#1e1;
+<4
+>5
+b0<5
+>6
+b4@2d1t0;
+@3t1;
+@4t0;
+@5t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+3
+0:16:zi_const_8'b0_o8
+1:13:zi_const_8'b0
+2:1:O
+<2
+>3
+1
+0:5:1 7 0
+<3
+>4
+#2e1;
+<4
+>5
+b0<5
+>6
+b1@2d1t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+5
+0:18:zi_oper_29_o1_2*i1
+1:10:zi_oper_29
+2:1:O
+3:2:I1
+4:2:I2
+<2
+>3
+1
+0:2:0 
+<3
+>4
+#3e1;
+<4
+>5
+b0<5
+>6
+b3@2d1t0;
+@3t0;
+@4t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+4
+0:15:zi_assign_o8_i8
+1:9:zi_assign
+2:1:O
+3:1:I
+<2
+>3
+1
+0:5:1 7 0
+<3
+>4
+#4e1;
+<4
+>5
+b0<5
+>6
+b2@2d1t0;
+@3t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+26
+0:19:pipe_reg_1771305960
+1:8:pipe_reg
+2:4:work
+3:73:E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/Code/pipe_reg.v
+4:7:genblk1
+5:5:32'b1
+6:3:REG
+7:12:32'h53594e43
+8:7:rsttype
+9:5:32'h8
+10:5:WIDTH
+11:2:CE
+12:3:CLK
+13:2:In
+14:3:out
+15:7:reg_out
+16:3:rst
+17:10:zi_rtld_n6
+18:10:zi_rtld_n7
+19:10:zi_rtld_n8
+20:10:zi_rtld_n9
+21:10:zi_rtld_i5
+22:10:zi_rtld_i6
+23:12:zi_rtld_i7_3
+24:12:zi_rtld_i8_6
+25:11:zi_rtld_i10
+<2
+>3
+6
+0:140:10 "scalar signed[31:0]" "<zin_internal>" 0 6 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar signed" "<zin_internal>" 0 2 1 0 0
+1:127:10 "scalar[31:0]" "<zin_internal>" 0 36 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+2:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+3:123:10 "scalar[7:0]" "<zin_internal>" 0 4 1 7 "integer[7:0]" "<zin_internal>" 0 10 32 7 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+4:5:1 7 0
+5:2:0 
+<3
+>4
+#5e1b2f3l1.48t0C1B4P3S14E23c3p6v5F0L1T0U0p8v7F0L1T1U0p10v9F0L1T0U0;
+<4
+>5
+b10@11l4knmir1X19T1sit2;
+@12l3knmir1X15T1s@t2;
+@13l2knmir3X20X22X2T3sNsasat3;
+@14l6knmod3X42X1X1S3sasasat3;
+@15l11krd2X17X3S2sNsNr1X43T1sat3;
+@16l5knmir1X16T1sit2;
+@17t4;
+@18t4;
+@19t5;
+@20t5;
+<5
+>6
+b5@13l2x3t3;
+@12l3x2t2;
+@11l4x1t2;
+@16l5x6t2;
+@14l6d1x4t3;
+<6
+>7
+c5
+@21i16l11h1x11 23 5 0 8 0 2 0 9 0 0 24;
+#1@22i17x5 10 8 6 7 3;
+#2@23i18x2 4 7;
+#3@24i19x4 8 9 6 1;
+#4@25i20l42h1x3 6 4 5;
+<7
+<1
+>1
+>2
+13
+0:28:zi_dff_o18_i18_5*i1_i18_3*i1
+1:6:zi_dff
+2:1:Q
+3:1:D
+4:3:CLK
+5:2:EN
+6:3:SET
+7:3:RST
+8:2:AL
+9:2:AD
+10:3:AOE
+11:2:OE
+12:4:SRST
+<2
+>3
+2
+0:6:1 17 0
+1:2:0 
+<3
+>4
+#6e1;
+<4
+>5
+b0<5
+>6
+b11@2d1t0;
+@3t0;
+@4t1;
+@5t1;
+@6t1;
+@7t1;
+@8t1;
+@9t0;
+@10t1;
+@11t1;
+@12t1;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+6
+0:19:zi_mux_o18_i1_2*i18
+1:6:zi_mux
+2:1:O
+3:1:S
+4:2:D1
+5:2:D0
+<2
+>3
+2
+0:6:1 17 0
+1:2:0 
+<3
+>4
+#7e1;
+<4
+>5
+b0<5
+>6
+b4@2d1t0;
+@3t1;
+@4t0;
+@5t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+3
+0:18:zi_const_18'b0_o18
+1:14:zi_const_18'b0
+2:1:O
+<2
+>3
+1
+0:6:1 17 0
+<3
+>4
+#8e1;
+<4
+>5
+b0<5
+>6
+b1@2d1t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+4
+0:17:zi_assign_o18_i18
+1:9:zi_assign
+2:1:O
+3:1:I
+<2
+>3
+1
+0:6:1 17 0
+<3
+>4
+#9e1;
+<4
+>5
+b0<5
+>6
+b2@2d1t0;
+@3t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+26
+0:18:pipe_reg_538580350
+1:8:pipe_reg
+2:4:work
+3:73:E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/Code/pipe_reg.v
+4:7:genblk1
+5:5:32'b0
+6:3:REG
+7:12:32'h53594e43
+8:7:rsttype
+9:6:32'h12
+10:5:WIDTH
+11:2:CE
+12:3:CLK
+13:2:In
+14:3:out
+15:7:reg_out
+16:3:rst
+17:10:zi_rtld_n6
+18:10:zi_rtld_n7
+19:10:zi_rtld_n8
+20:10:zi_rtld_n9
+21:10:zi_rtld_i5
+22:10:zi_rtld_i6
+23:12:zi_rtld_i7_3
+24:12:zi_rtld_i8_6
+25:11:zi_rtld_i10
+<2
+>3
+6
+0:140:10 "scalar signed[31:0]" "<zin_internal>" 0 6 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar signed" "<zin_internal>" 0 2 1 0 0
+1:127:10 "scalar[31:0]" "<zin_internal>" 0 36 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+2:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+3:126:10 "scalar[17:0]" "<zin_internal>" 0 4 1 7 "integer[17:0]" "<zin_internal>" 0 10 32 17 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+4:6:1 17 0
+5:2:0 
+<3
+>4
+#10e1b2f3l1.48t0C1B4P3S14E23c3p6v5F0L1T0U0p8v7F0L1T1U0p10v9F0L1T0U0;
+<4
+>5
+b10@11l4knmir1X19T1sit2;
+@12l3knmir1X15T1s@t2;
+@13l2knmir3X20X22X2T3sNsasat3;
+@14l6knmod3X42X1X1S3sasasat3;
+@15l11krd2X17X3S2sNsNr1X43T1sat3;
+@16l5knmir1X16T1sit2;
+@17t4;
+@18t4;
+@19t5;
+@20t5;
+<5
+>6
+b5@13l2x3t3;
+@12l3x2t2;
+@11l4x1t2;
+@16l5x6t2;
+@14l6d1x4t3;
+<6
+>7
+c5
+#6@21i16l11x11 23 5 0 8 0 2 0 9 0 0 24;
+#7@22i17x5 10 8 6 7 3;
+#8@23i18x2 4 7;
+#3@24i19x4 8 9 6 1;
+#9@25i20l42h1x3 6 4 3;
+<7
+<1
+>1
+>2
+26
+0:18:pipe_reg_241385043
+1:8:pipe_reg
+2:4:work
+3:73:E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/Code/pipe_reg.v
+4:7:genblk1
+5:5:32'b1
+6:3:REG
+7:12:32'h53594e43
+8:7:rsttype
+9:6:32'h12
+10:5:WIDTH
+11:2:CE
+12:3:CLK
+13:2:In
+14:3:out
+15:7:reg_out
+16:3:rst
+17:10:zi_rtld_n6
+18:10:zi_rtld_n7
+19:10:zi_rtld_n8
+20:10:zi_rtld_n9
+21:10:zi_rtld_i5
+22:10:zi_rtld_i6
+23:12:zi_rtld_i7_3
+24:12:zi_rtld_i8_6
+25:11:zi_rtld_i10
+<2
+>3
+6
+0:140:10 "scalar signed[31:0]" "<zin_internal>" 0 6 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar signed" "<zin_internal>" 0 2 1 0 0
+1:127:10 "scalar[31:0]" "<zin_internal>" 0 36 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+2:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+3:126:10 "scalar[17:0]" "<zin_internal>" 0 4 1 7 "integer[17:0]" "<zin_internal>" 0 10 32 17 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+4:6:1 17 0
+5:2:0 
+<3
+>4
+#11e1b2f3l1.48t0C1B4P3S14E23c3p6v5F0L1T0U0p8v7F0L1T1U0p10v9F0L1T0U0;
+<4
+>5
+b10@11l4knmir1X19T1sit2;
+@12l3knmir1X15T1s@t2;
+@13l2knmir3X20X22X2T3sNsasat3;
+@14l6knmod3X42X1X1S3sasasat3;
+@15l11krd2X17X3S2sNsNr1X43T1sat3;
+@16l5knmir1X16T1sit2;
+@17t4;
+@18t4;
+@19t5;
+@20t5;
+<5
+>6
+b5@13l2x3t3;
+@12l3x2t2;
+@11l4x1t2;
+@16l5x6t2;
+@14l6d1x4t3;
+<6
+>7
+c5
+#6@21i16l11h1x11 23 5 0 8 0 2 0 9 0 0 24;
+#7@22i17x5 10 8 6 7 3;
+#8@23i18x2 4 7;
+#3@24i19x4 8 9 6 1;
+#9@25i20l42h1x3 6 4 5;
+<7
+<1
+>1
+>2
+13
+0:28:zi_dff_o48_i48_5*i1_i48_3*i1
+1:6:zi_dff
+2:1:Q
+3:1:D
+4:3:CLK
+5:2:EN
+6:3:SET
+7:3:RST
+8:2:AL
+9:2:AD
+10:3:AOE
+11:2:OE
+12:4:SRST
+<2
+>3
+2
+0:6:1 47 0
+1:2:0 
+<3
+>4
+#12e1;
+<4
+>5
+b0<5
+>6
+b11@2d1t0;
+@3t0;
+@4t1;
+@5t1;
+@6t1;
+@7t1;
+@8t1;
+@9t0;
+@10t1;
+@11t1;
+@12t1;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+6
+0:19:zi_mux_o48_i1_2*i48
+1:6:zi_mux
+2:1:O
+3:1:S
+4:2:D1
+5:2:D0
+<2
+>3
+2
+0:6:1 47 0
+1:2:0 
+<3
+>4
+#13e1;
+<4
+>5
+b0<5
+>6
+b4@2d1t0;
+@3t1;
+@4t0;
+@5t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+3
+0:14:zi_const_0_o48
+1:10:zi_const_0
+2:1:O
+<2
+>3
+1
+0:6:1 47 0
+<3
+>4
+#14e1;
+<4
+>5
+b0<5
+>6
+b1@2d1t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+4
+0:17:zi_assign_o48_i48
+1:9:zi_assign
+2:1:O
+3:1:I
+<2
+>3
+1
+0:6:1 47 0
+<3
+>4
+#15e1;
+<4
+>5
+b0<5
+>6
+b2@2d1t0;
+@3t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+26
+0:18:pipe_reg_694293042
+1:8:pipe_reg
+2:4:work
+3:73:E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/Code/pipe_reg.v
+4:7:genblk1
+5:5:32'b1
+6:3:REG
+7:12:32'h53594e43
+8:7:rsttype
+9:6:32'h30
+10:5:WIDTH
+11:2:CE
+12:3:CLK
+13:2:In
+14:3:out
+15:7:reg_out
+16:3:rst
+17:10:zi_rtld_n6
+18:10:zi_rtld_n7
+19:10:zi_rtld_n8
+20:10:zi_rtld_n9
+21:10:zi_rtld_i5
+22:10:zi_rtld_i6
+23:12:zi_rtld_i7_3
+24:12:zi_rtld_i8_6
+25:11:zi_rtld_i10
+<2
+>3
+6
+0:140:10 "scalar signed[31:0]" "<zin_internal>" 0 6 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar signed" "<zin_internal>" 0 2 1 0 0
+1:127:10 "scalar[31:0]" "<zin_internal>" 0 36 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+2:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+3:126:10 "scalar[47:0]" "<zin_internal>" 0 4 1 7 "integer[47:0]" "<zin_internal>" 0 10 32 47 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+4:6:1 47 0
+5:2:0 
+<3
+>4
+#16e1b2f3l1.48t0C1B4P3S14E23c3p6v5F0L1T0U0p8v7F0L1T1U0p10v9F0L1T0U0;
+<4
+>5
+b10@11l4knmir1X19T1sit2;
+@12l3knmir1X15T1s@t2;
+@13l2knmir3X20X22X2T3sNsasat3;
+@14l6knmod3X42X1X1S3sasasat3;
+@15l11krd2X17X3S2sNsNr1X43T1sat3;
+@16l5knmir1X16T1sit2;
+@17t4;
+@18t4;
+@19t5;
+@20t5;
+<5
+>6
+b5@13l2x3t3;
+@12l3x2t2;
+@11l4x1t2;
+@16l5x6t2;
+@14l6d1x4t3;
+<6
+>7
+c5
+#12@21i16l11h1x11 23 5 0 8 0 2 0 9 0 0 24;
+#13@22i17x5 10 8 6 7 3;
+#14@23i18x2 4 7;
+#3@24i19x4 8 9 6 1;
+#15@25i20l42h1x3 6 4 5;
+<7
+<1
+>1
+>2
+13
+0:28:zi_dff_o36_i36_5*i1_i36_3*i1
+1:6:zi_dff
+2:1:Q
+3:1:D
+4:3:CLK
+5:2:EN
+6:3:SET
+7:3:RST
+8:2:AL
+9:2:AD
+10:3:AOE
+11:2:OE
+12:4:SRST
+<2
+>3
+2
+0:6:1 35 0
+1:2:0 
+<3
+>4
+#17e1;
+<4
+>5
+b0<5
+>6
+b11@2d1t0;
+@3t0;
+@4t1;
+@5t1;
+@6t1;
+@7t1;
+@8t1;
+@9t0;
+@10t1;
+@11t1;
+@12t1;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+6
+0:19:zi_mux_o36_i1_2*i36
+1:6:zi_mux
+2:1:O
+3:1:S
+4:2:D1
+5:2:D0
+<2
+>3
+2
+0:6:1 35 0
+1:2:0 
+<3
+>4
+#18e1;
+<4
+>5
+b0<5
+>6
+b4@2d1t0;
+@3t1;
+@4t0;
+@5t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+3
+0:14:zi_const_0_o36
+1:10:zi_const_0
+2:1:O
+<2
+>3
+1
+0:6:1 35 0
+<3
+>4
+#19e1;
+<4
+>5
+b0<5
+>6
+b1@2d1t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+4
+0:17:zi_assign_o36_i36
+1:9:zi_assign
+2:1:O
+3:1:I
+<2
+>3
+1
+0:6:1 35 0
+<3
+>4
+#20e1;
+<4
+>5
+b0<5
+>6
+b2@2d1t0;
+@3t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+26
+0:19:pipe_reg_1574008761
+1:8:pipe_reg
+2:4:work
+3:73:E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/Code/pipe_reg.v
+4:7:genblk1
+5:5:32'b1
+6:3:REG
+7:12:32'h53594e43
+8:7:rsttype
+9:6:32'h24
+10:5:WIDTH
+11:2:CE
+12:3:CLK
+13:2:In
+14:3:out
+15:7:reg_out
+16:3:rst
+17:10:zi_rtld_n6
+18:10:zi_rtld_n7
+19:10:zi_rtld_n8
+20:10:zi_rtld_n9
+21:10:zi_rtld_i5
+22:10:zi_rtld_i6
+23:12:zi_rtld_i7_3
+24:12:zi_rtld_i8_6
+25:11:zi_rtld_i10
+<2
+>3
+6
+0:140:10 "scalar signed[31:0]" "<zin_internal>" 0 6 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar signed" "<zin_internal>" 0 2 1 0 0
+1:127:10 "scalar[31:0]" "<zin_internal>" 0 36 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+2:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+3:126:10 "scalar[35:0]" "<zin_internal>" 0 4 1 7 "integer[35:0]" "<zin_internal>" 0 10 32 35 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+4:6:1 35 0
+5:2:0 
+<3
+>4
+#21e1b2f3l1.48t0C1B4P3S14E23c3p6v5F0L1T0U0p8v7F0L1T1U0p10v9F0L1T0U0;
+<4
+>5
+b10@11l4knmir1X19T1sit2;
+@12l3knmir1X15T1s@t2;
+@13l2knmir3X20X22X2T3sNsasat3;
+@14l6knmod3X42X1X1S3sasasat3;
+@15l11krd2X17X3S2sNsNr1X43T1sat3;
+@16l5knmir1X16T1sit2;
+@17t4;
+@18t4;
+@19t5;
+@20t5;
+<5
+>6
+b5@13l2x3t3;
+@12l3x2t2;
+@11l4x1t2;
+@16l5x6t2;
+@14l6d1x4t3;
+<6
+>7
+c5
+#17@21i16l11h1x11 23 5 0 8 0 2 0 9 0 0 24;
+#18@22i17x5 10 8 6 7 3;
+#19@23i18x2 4 7;
+#3@24i19x4 8 9 6 1;
+#20@25i20l42h1x3 6 4 5;
+<7
+<1
+>1
+>2
+13
+0:15:zi_dff_o1_10*i1
+1:6:zi_dff
+2:1:Q
+3:1:D
+4:3:CLK
+5:2:EN
+6:3:SET
+7:3:RST
+8:2:AL
+9:2:AD
+10:3:AOE
+11:2:OE
+12:4:SRST
+<2
+>3
+1
+0:2:0 
+<3
+>4
+#22e1;
+<4
+>5
+b0<5
+>6
+b11@2d1t0;
+@3t0;
+@4t0;
+@5t0;
+@6t0;
+@7t0;
+@8t0;
+@9t0;
+@10t0;
+@11t0;
+@12t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+6
+0:14:zi_mux_o1_3*i1
+1:6:zi_mux
+2:1:O
+3:1:S
+4:2:D1
+5:2:D0
+<2
+>3
+1
+0:2:0 
+<3
+>4
+#23e1;
+<4
+>5
+b0<5
+>6
+b4@2d1t0;
+@3t0;
+@4t0;
+@5t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+3
+0:16:zi_const_1'b0_o1
+1:13:zi_const_1'b0
+2:1:O
+<2
+>3
+1
+0:2:0 
+<3
+>4
+#24e1;
+<4
+>5
+b0<5
+>6
+b1@2d1t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+4
+0:15:zi_assign_o1_i1
+1:9:zi_assign
+2:1:O
+3:1:I
+<2
+>3
+1
+0:2:0 
+<3
+>4
+#25e1;
+<4
+>5
+b0<5
+>6
+b2@2d1t0;
+@3t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+25
+0:19:pipe_reg_2030955269
+1:8:pipe_reg
+2:4:work
+3:73:E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/Code/pipe_reg.v
+4:7:genblk1
+5:5:32'b1
+6:3:REG
+7:12:32'h53594e43
+8:7:rsttype
+9:5:WIDTH
+10:2:CE
+11:3:CLK
+12:2:In
+13:3:out
+14:7:reg_out
+15:3:rst
+16:10:zi_rtld_n6
+17:10:zi_rtld_n7
+18:10:zi_rtld_n8
+19:10:zi_rtld_n9
+20:10:zi_rtld_i5
+21:10:zi_rtld_i6
+22:12:zi_rtld_i7_2
+23:12:zi_rtld_i8_5
+24:11:zi_rtld_i10
+<2
+>3
+5
+0:140:10 "scalar signed[31:0]" "<zin_internal>" 0 6 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar signed" "<zin_internal>" 0 2 1 0 0
+1:127:10 "scalar[31:0]" "<zin_internal>" 0 36 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+2:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+3:123:10 "scalar[0:0]" "<zin_internal>" 0 4 1 7 "integer[0:0]" "<zin_internal>" 0 10 32 0 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+4:2:0 
+<3
+>4
+#26e1b2f3l1.48t0C1B4P3S14E23c3p6v5F0L1T0U0p8v7F0L1T1U0p9v5F0L1T0U0;
+<4
+>5
+b10@10l4knmir1X19T1sit2;
+@11l3knmir1X15T1s@t2;
+@12l2knmir3X20X22X2T3sNsasat3;
+@13l6knmod3X42X1X1S3sasasat3;
+@14l11krd2X17X3S2sNsNr1X43T1sat3;
+@15l5knmir1X16T1sit2;
+@16t4;
+@17t4;
+@18t4;
+@19t4;
+<5
+>6
+b5@12l2x3t3;
+@11l3x2t2;
+@10l4x1t2;
+@15l5x6t2;
+@13l6d1x4t3;
+<6
+>7
+c5
+#22@20i16l11h1x11 23 5 0 8 0 2 0 9 0 0 24;
+#23@21i17x5 10 8 6 7 3;
+#24@22i18x2 4 7;
+#3@23i19x4 8 9 6 1;
+#25@24i20l42h1x3 6 4 5;
+<7
+<1
+>1
+>2
+5
+0:19:zi_oper_1_o18_2*i18
+1:9:zi_oper_1
+2:1:O
+3:2:I1
+4:2:I2
+<2
+>3
+1
+0:6:1 17 0
+<3
+>4
+#27e1;
+<4
+>5
+b0<5
+>6
+b3@2d1t0;
+@3t0;
+@4t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+5
+0:19:zi_oper_0_o18_2*i18
+1:9:zi_oper_0
+2:1:O
+3:2:I1
+4:2:I2
+<2
+>3
+1
+0:6:1 17 0
+<3
+>4
+#28e1;
+<4
+>5
+b0<5
+>6
+b3@2d1t0;
+@3t0;
+@4t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+3
+0:16:zi_const_2'b0_o2
+1:13:zi_const_2'b0
+2:1:O
+<2
+>3
+1
+0:5:1 1 0
+<3
+>4
+#29e1;
+<4
+>5
+b0<5
+>6
+b1@2d1t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+5
+0:18:zi_oper_16_o1_2*i2
+1:10:zi_oper_16
+2:1:O
+3:2:I1
+4:2:I2
+<2
+>3
+2
+0:2:0 
+1:5:1 1 0
+<3
+>4
+#30e1;
+<4
+>5
+b0<5
+>6
+b3@2d1t0;
+@3t1;
+@4t1;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+3
+0:16:zi_const_2'b1_o2
+1:13:zi_const_2'b1
+2:1:O
+<2
+>3
+1
+0:5:1 1 0
+<3
+>4
+#31e1;
+<4
+>5
+b0<5
+>6
+b1@2d1t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+3
+0:16:zi_const_2'h2_o2
+1:13:zi_const_2'h2
+2:1:O
+<2
+>3
+1
+0:5:1 1 0
+<3
+>4
+#32e1;
+<4
+>5
+b0<5
+>6
+b1@2d1t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+3
+0:16:zi_const_2'h3_o2
+1:13:zi_const_2'h3
+2:1:O
+<2
+>3
+1
+0:5:1 1 0
+<3
+>4
+#33e1;
+<4
+>5
+b0<5
+>6
+b1@2d1t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+3
+0:18:zi_const_47'b0_o47
+1:14:zi_const_47'b0
+2:1:O
+<2
+>3
+1
+0:6:1 46 0
+<3
+>4
+#34e1;
+<4
+>5
+b0<5
+>6
+b1@2d1t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+5
+0:21:zi_oper_32_o48_i47_i1
+1:10:zi_oper_32
+2:1:O
+3:2:I1
+4:2:I2
+<2
+>3
+3
+0:6:1 47 0
+1:6:1 46 0
+2:2:0 
+<3
+>4
+#35e1;
+<4
+>5
+b0<5
+>6
+b3@2d1t0;
+@3t1;
+@4t2;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+5
+0:21:zi_oper_32_o49_i1_i48
+1:10:zi_oper_32
+2:1:O
+3:2:I1
+4:2:I2
+<2
+>3
+3
+0:6:1 48 0
+1:2:0 
+2:6:1 47 0
+<3
+>4
+#36e1;
+<4
+>5
+b0<5
+>6
+b3@2d1t0;
+@3t1;
+@4t2;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+3
+0:18:zi_const_48'b0_o48
+1:14:zi_const_48'b0
+2:1:O
+<2
+>3
+1
+0:6:1 47 0
+<3
+>4
+#37e1;
+<4
+>5
+b0<5
+>6
+b1@2d1t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+5
+0:21:zi_oper_32_o49_i48_i1
+1:10:zi_oper_32
+2:1:O
+3:2:I1
+4:2:I2
+<2
+>3
+3
+0:6:1 48 0
+1:6:1 47 0
+2:2:0 
+<3
+>4
+#38e1;
+<4
+>5
+b0<5
+>6
+b3@2d1t0;
+@3t1;
+@4t2;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+5
+0:19:zi_oper_0_o49_2*i49
+1:9:zi_oper_0
+2:1:O
+3:2:I1
+4:2:I2
+<2
+>3
+1
+0:6:1 48 0
+<3
+>4
+#39e1;
+<4
+>5
+b0<5
+>6
+b3@2d1t0;
+@3t0;
+@4t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+5
+0:19:zi_oper_1_o49_2*i49
+1:9:zi_oper_1
+2:1:O
+3:2:I1
+4:2:I2
+<2
+>3
+1
+0:6:1 48 0
+<3
+>4
+#40e1;
+<4
+>5
+b0<5
+>6
+b3@2d1t0;
+@3t0;
+@4t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+5
+0:20:zi_oper_32_o36_2*i18
+1:10:zi_oper_32
+2:1:O
+3:2:I1
+4:2:I2
+<2
+>3
+2
+0:6:1 35 0
+1:6:1 17 0
+<3
+>4
+#41e1;
+<4
+>5
+b0<5
+>6
+b3@2d1t0;
+@3t1;
+@4t1;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+5
+0:19:zi_oper_3_o36_2*i36
+1:9:zi_oper_3
+2:1:O
+3:2:I1
+4:2:I2
+<2
+>3
+1
+0:6:1 35 0
+<3
+>4
+#42e1;
+<4
+>5
+b0<5
+>6
+b3@2d1t0;
+@3t0;
+@4t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+6
+0:24:zi_oper_32_o48_i12_2*i18
+1:10:zi_oper_32
+2:1:O
+3:2:I1
+4:2:I2
+5:2:I3
+<2
+>3
+3
+0:6:1 47 0
+1:6:1 11 0
+2:6:1 17 0
+<3
+>4
+#43e1;
+<4
+>5
+b0<5
+>6
+b4@2d1t0;
+@3t1;
+@4t2;
+@5t2;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+3
+0:18:zi_const_12'b0_o12
+1:14:zi_const_12'b0
+2:1:O
+<2
+>3
+1
+0:6:1 11 0
+<3
+>4
+#44e1;
+<4
+>5
+b0<5
+>6
+b1@2d1t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+5
+0:22:zi_oper_32_o48_i12_i36
+1:10:zi_oper_32
+2:1:O
+3:2:I1
+4:2:I2
+<2
+>3
+3
+0:6:1 47 0
+1:6:1 11 0
+2:6:1 35 0
+<3
+>4
+#45e1;
+<4
+>5
+b0<5
+>6
+b3@2d1t0;
+@3t1;
+@4t2;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+4
+0:18:zi_oper_38_o48_i49
+1:10:zi_oper_38
+2:1:O
+3:1:I
+<2
+>3
+2
+0:6:1 47 0
+1:6:1 48 0
+<3
+>4
+#46e1;
+<4
+>5
+b0<5
+>6
+b2@2d1t0;
+@3t1;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+4
+0:16:zi_oper_38_o1_i8
+1:10:zi_oper_38
+2:1:O
+3:1:I
+<2
+>3
+2
+0:2:0 
+1:5:1 7 0
+<3
+>4
+#47e1;
+<4
+>5
+b0<5
+>6
+b2@2d1t0;
+@3t1;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+4
+0:16:zi_oper_38_o2_i8
+1:10:zi_oper_38
+2:1:O
+3:1:I
+<2
+>3
+2
+0:5:1 1 0
+1:5:1 7 0
+<3
+>4
+#48e1;
+<4
+>5
+b0<5
+>6
+b2@2d1t0;
+@3t1;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+4
+0:17:zi_oper_38_o1_i49
+1:10:zi_oper_38
+2:1:O
+3:1:I
+<2
+>3
+2
+0:2:0 
+1:6:1 48 0
+<3
+>4
+#49e1;
+<4
+>5
+b0<5
+>6
+b2@2d1t0;
+@3t1;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+4
+0:18:zi_oper_38_o12_i18
+1:10:zi_oper_38
+2:1:O
+3:1:I
+<2
+>3
+2
+0:6:1 11 0
+1:6:1 17 0
+<3
+>4
+#50e1;
+<4
+>5
+b0<5
+>6
+b2@2d1t0;
+@3t1;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+233
+0:16:Spartan6_DSP48A1
+1:4:work
+2:81:E:/Digital_IC_Design_Doploma_By_Kareem_W/Project1-DSP48A1/Code/Spartan6_DSP48A1.v
+3:5:32'b0
+4:5:A0REG
+5:5:32'b1
+6:5:A1REG
+7:5:B0REG
+8:5:B1REG
+9:16:48'h444952454354
+10:7:B_INPUT
+11:10:CARRYINREG
+12:18:56'h4f504d4f444535
+13:10:CARRYINSEL
+14:11:CARRYOUTREG
+15:4:CREG
+16:4:DREG
+17:4:MREG
+18:9:OPMODEREG
+19:4:PREG
+20:12:32'h53594e43
+21:7:RSTTYPE
+22:14:<zin_internal>
+23:15:\$global_clock 
+24:1:A
+25:6:A0_Pip
+26:6:A1_Pip
+27:8:ABD_Conc
+28:1:B
+29:6:B0_Pip
+30:2:B1
+31:6:B1_Pip
+32:4:BCIN
+33:5:BCOUT
+34:6:BINPUT
+35:1:C
+36:5:C_Pip
+37:7:CARRYIN
+38:8:CARRYOUT
+39:9:CARRYOUTF
+40:3:CEA
+41:3:CEB
+42:3:CEC
+43:9:CECARRYIN
+44:3:CED
+45:3:CEM
+46:8:CEOPMODE
+47:3:CEP
+48:3:CIN
+49:7:CIN_Pip
+50:3:CLK
+51:4:COUT
+52:1:D
+53:5:D_Pip
+54:1:M
+55:7:Mul_Out
+56:11:Mul_Out_Pip
+57:19:Mul_Out_Pip_Etended
+58:6:OPMODE
+59:10:OPMODE_Pip
+60:7:Out_AS1
+61:7:Out_AS2
+62:9:Out_Mux_X
+63:9:Out_Mux_Z
+64:1:P
+65:4:PCIN
+66:5:PCOUT
+67:4:RSTA
+68:4:RSTB
+69:4:RSTC
+70:10:RSTCARRYIN
+71:4:RSTD
+72:4:RSTM
+73:9:RSTOPMODE
+74:4:RSTP
+75:10:zi_rtld_55
+76:10:zi_rtld_56
+77:10:zi_rtld_63
+78:10:zi_rtld_68
+79:10:zi_rtld_73
+80:10:zi_rtld_79
+81:10:zi_rtld_80
+82:10:zi_rtld_87
+83:10:zi_rtld_91
+84:10:zi_rtld_96
+85:11:zi_rtld_101
+86:11:zi_rtld_112
+87:11:zi_rtld_113
+88:11:zi_rtld_114
+89:11:zi_rtld_115
+90:11:zi_rtld_116
+91:11:zi_rtld_117
+92:11:zi_rtld_126
+93:11:zi_rtld_127
+94:11:zi_rtld_128
+95:11:zi_rtld_129
+96:11:zi_rtld_130
+97:11:zi_rtld_131
+98:11:zi_rtld_145
+99:11:zi_rtld_146
+100:11:zi_rtld_147
+101:11:zi_rtld_153
+102:11:zi_rtld_157
+103:11:zi_rtld_n58
+104:11:zi_rtld_n59
+105:11:zi_rtld_n60
+106:11:zi_rtld_n61
+107:11:zi_rtld_n62
+108:11:zi_rtld_n63
+109:11:zi_rtld_n64
+110:11:zi_rtld_n66
+111:11:zi_rtld_n67
+112:11:zi_rtld_n68
+113:11:zi_rtld_n70
+114:11:zi_rtld_n71
+115:11:zi_rtld_n73
+116:11:zi_rtld_n74
+117:11:zi_rtld_n75
+118:11:zi_rtld_n76
+119:11:zi_rtld_n77
+120:11:zi_rtld_n79
+121:11:zi_rtld_n80
+122:11:zi_rtld_n81
+123:11:zi_rtld_n82
+124:11:zi_rtld_n83
+125:11:zi_rtld_n84
+126:11:zi_rtld_n85
+127:11:zi_rtld_n86
+128:11:zi_rtld_n87
+129:11:zi_rtld_n88
+130:11:zi_rtld_n89
+131:11:zi_rtld_n90
+132:11:zi_rtld_n91
+133:11:zi_rtld_n94
+134:11:zi_rtld_n95
+135:11:zi_rtld_n98
+136:11:zi_rtld_n99
+137:12:zi_rtld_n102
+138:12:zi_rtld_n105
+139:12:zi_rtld_n106
+140:12:zi_rtld_n107
+141:6:A0_REG
+142:6:A1_REG
+143:6:B0_REG
+144:6:B1_REG
+145:5:C_REG
+146:3:CYI
+147:3:CYO
+148:5:D_REG
+149:5:M_REG
+150:10:OPMODE_REG
+151:5:P_REG
+152:14:zi_rip_0_s47_0
+153:13:zi_rip_1_s6_6
+154:13:zi_rip_2_s4_4
+155:13:zi_rip_3_s5_5
+156:13:zi_rip_4_s7_7
+157:13:zi_rip_5_s1_0
+158:13:zi_rip_6_s3_2
+159:14:zi_rip_7_s47_0
+160:15:zi_rip_8_s48_48
+161:15:zi_rip_9_s48_48
+162:15:zi_rip_10_s11_0
+163:11:zi_rtld_i53
+164:11:zi_rtld_i54
+165:14:zi_rtld_i56_33
+166:14:zi_rtld_i57_34
+167:11:zi_rtld_i58
+168:11:zi_rtld_i59
+169:11:zi_rtld_i61
+170:11:zi_rtld_i63
+171:11:zi_rtld_i64
+172:13:zi_rtld_i65_8
+173:14:zi_rtld_i65_35
+174:13:zi_rtld_i66_9
+175:11:zi_rtld_i67
+176:14:zi_rtld_i68_10
+177:14:zi_rtld_i68_36
+178:11:zi_rtld_i69
+179:14:zi_rtld_i70_11
+180:14:zi_rtld_i70_37
+181:11:zi_rtld_i71
+182:14:zi_rtld_i72_12
+183:14:zi_rtld_i72_38
+184:13:zi_rtld_i73_9
+185:11:zi_rtld_i74
+186:11:zi_rtld_i75
+187:13:zi_rtld_i76_8
+188:14:zi_rtld_i76_39
+189:13:zi_rtld_i77_9
+190:11:zi_rtld_i78
+191:14:zi_rtld_i79_10
+192:14:zi_rtld_i79_40
+193:14:zi_rtld_i80_15
+194:14:zi_rtld_i80_57
+195:11:zi_rtld_i81
+196:14:zi_rtld_i82_11
+197:14:zi_rtld_i82_41
+198:11:zi_rtld_i83
+199:14:zi_rtld_i84_12
+200:14:zi_rtld_i84_42
+201:13:zi_rtld_i85_9
+202:11:zi_rtld_i86
+203:11:zi_rtld_i87
+204:13:zi_rtld_i89_2
+205:14:zi_rtld_i89_17
+206:14:zi_rtld_i89_43
+207:14:zi_rtld_i89_44
+208:14:zi_rtld_i89_58
+209:14:zi_rtld_i89_59
+210:14:zi_rtld_i89_60
+211:13:zi_rtld_i93_2
+212:14:zi_rtld_i93_17
+213:14:zi_rtld_i93_45
+214:14:zi_rtld_i93_46
+215:14:zi_rtld_i93_58
+216:14:zi_rtld_i93_59
+217:14:zi_rtld_i93_60
+218:11:zi_rtld_i97
+219:11:zi_rtld_i98
+220:12:zi_rtld_i105
+221:15:zi_rtld_i106_20
+222:15:zi_rtld_i106_47
+223:15:zi_rtld_i106_61
+224:15:zi_rtld_i106_62
+225:12:zi_rtld_i107
+226:12:zi_rtld_i108
+227:12:zi_rtld_i109
+228:15:zi_rtld_i110_63
+229:15:zi_rtld_i112_22
+230:15:zi_rtld_i112_64
+231:12:zi_rtld_i114
+232:12:zi_rtld_i115
+<2
+>3
+17
+0:140:10 "scalar signed[31:0]" "<zin_internal>" 0 6 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar signed" "<zin_internal>" 0 2 1 0 0
+1:127:10 "scalar[47:0]" "<zin_internal>" 0 36 1 7 "integer[47:0]" "<zin_internal>" 0 10 32 47 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+2:127:10 "scalar[55:0]" "<zin_internal>" 0 36 1 7 "integer[55:0]" "<zin_internal>" 0 10 32 55 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+3:127:10 "scalar[31:0]" "<zin_internal>" 0 36 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+4:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+5:126:10 "scalar[17:0]" "<zin_internal>" 0 4 1 7 "integer[17:0]" "<zin_internal>" 0 10 32 17 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+6:126:10 "scalar[47:0]" "<zin_internal>" 0 4 1 7 "integer[47:0]" "<zin_internal>" 0 10 32 47 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+7:126:10 "scalar[35:0]" "<zin_internal>" 0 4 1 7 "integer[35:0]" "<zin_internal>" 0 10 32 35 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+8:123:10 "scalar[7:0]" "<zin_internal>" 0 4 1 7 "integer[7:0]" "<zin_internal>" 0 10 32 7 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+9:5:1 1 0
+10:6:1 46 0
+11:2:0 
+12:6:1 48 0
+13:6:1 47 0
+14:6:1 17 0
+15:6:1 35 0
+16:6:1 11 0
+<3
+>4
+#51b1f2l1.206t0c14p4v3F0L47T0U0p6v5F0L48T0U0p7v3F0L49T0U0p8v5F0L50T0U0p10v9F0L66T1U0p11v5F0L57T0U0p13v12F0L63T2U0p14v5F0L58T0U0p15v5F0L53T0U0p16v5F0L54T0U0p17v5F0L55T0U0p18v5F0L59T0U0p19v5F0L56T0U0p21v20F0L69T3U0;
+<4
+>5
+b118@23f22t4;
+@24l3knmir2X82X79T2sxsat5;
+@25l73knd1X82S1syr1X125T1sxt5;
+@26l121knd1X125S1syr1X132T1sat5;
+@27l155knd1X161S1sar1X169T1sat6;
+@28l4knmir2X92X69T2sasat5;
+@29l74knd1X98S1syr3X107X3X4T3sasasat5;
+@30l103knd2X114X3S2sasar1X124T1sxt5;
+@31l122knd1X124S1syr2X132X1T2sasat5;
+@32l8knmir1X93T1sat5;
+@33l42knmod1X133S1sat5;
+@34l88knd3X92X1X1S3sasasar1X98T1sxt5;
+@35l6knmir1X85T1sxt6;
+@36l76knd1X85S1syr1X179T1sat6;
+@37l7knmir1X137T1sat4;
+@38l12knmod1X196S1syr1X198T1sat4;
+@39l13knmod1X198S1sat4;
+@40l20knmir2X82X43T2sxsxt4;
+@41l21knmir2X98X26T2sxsxt4;
+@42l22knmir1X85T1sxt4;
+@43l23knmir2X148X48T2sxsxt4;
+@44l24knmir1X83T1sxt4;
+@45l25knmir1X146T1sxt4;
+@46l26knmir1X79T1sxt4;
+@47l27knmir1X202T1sxt4;
+@48l130knd3X137X1X1S3sasasar1X148T1sxt4;
+@49l144knd1X148S1syr2X189X3T2sasat4;
+@50l16knmir11X79X3X1X2X13X26X1X21X2X48X6T11sxsxsxsxsxsxsxsxsxsxsxt4;
+@51l185knd2X189X3S2sasar1X196T1sxt4;
+@52l5knmir2X83X78T2sxsat5;
+@53l75knd1X83S1syr2X107X3T2sasat5;
+@54l10knmod1X153S1sat7;
+@55l129knd1X132S1sar1X146T1sxt7;
+@56l143knd1X146S1syr2X153X9T2sasat7;
+@57l156knd1X162S1sar1X167T1sat6;
+@58l17knmir1X79T1sxt8;
+@59l77knd1X79S1syr6X106X7X25X27X10X13T6sisisasssssit8;
+@60l102knd2X107X3S2sasar1X117T1sat5;
+@61l184knd2X189X3S2sasar1X202T1sxt6;
+@62l157knd5X166X1X1X1X1S5sasasasasar2X189X3T2sasat6;
+@63l158knd5X176X1X1X1X1S5sasasasasar2X189X3T2sasat6;
+@64l11knmod1X202S1syr3X168X10X26T3sasasat6;
+@65l41knmir1X177T1sat4;
+@66l43knmod1X204S1sat6;
+@67l31knmir2X82X43T2sxsxt4;
+@68l32knmir2X98X26T2sxsxt4;
+@69l33knmir1X85T1sxt4;
+@70l37knmir2X148X48T2sxsxt4;
+@71l34knmir1X83T1sxt4;
+@72l35knmir1X146T1sxt4;
+@73l38knmir1X79T1sxt4;
+@74l36knmir1X202T1sxt4;
+@75t9;
+@76t9;
+@77t9;
+@78t9;
+@79t9;
+@80t9;
+@81t9;
+@82t9;
+@83t10;
+@84t9;
+@85t9;
+@86t11;
+@87t12;
+@88t12;
+@89t13;
+@90t12;
+@91t12;
+@92t11;
+@93t12;
+@94t12;
+@95t12;
+@96t13;
+@97t12;
+@98t14;
+@99t15;
+@100t15;
+@101t16;
+@102t16;
+@103t11;
+@104t14;
+@105t14;
+@106t14;
+@107t11;
+@108t14;
+@109t11;
+@110t11;
+@111t13;
+@112t11;
+@113t11;
+@114t11;
+@115t13;
+@116t13;
+@117t13;
+@118t13;
+@119t13;
+@120t11;
+@121t13;
+@122t11;
+@123t13;
+@124t11;
+@125t11;
+@126t13;
+@127t13;
+@128t13;
+@129t13;
+@130t13;
+@131t11;
+@132t12;
+@133t13;
+@134t12;
+@135t13;
+@136t13;
+@137t11;
+@138t11;
+@139t11;
+@140t15;
+<5
+>6
+b31@24l3x2t5;
+@28l4x6t5;
+@52l5x30t5;
+@35l6x13t6;
+@37l7x15t4;
+@32l8x10t5;
+@54l10d1x32t7;
+@64l11d1x42t6;
+@38l12d1x16t4;
+@39l13d1x17t4;
+@50l16x28t4;
+@58l17x36t8;
+@40l20x18t4;
+@41l21x19t4;
+@42l22x20t4;
+@43l23x21t4;
+@44l24x22t4;
+@45l25x23t4;
+@46l26x24t4;
+@47l27x25t4;
+@67l31x45t4;
+@68l32x46t4;
+@69l33x47t4;
+@71l34x49t4;
+@72l35x50t4;
+@74l36x52t4;
+@70l37x48t4;
+@73l38x51t4;
+@65l41x43t4;
+@33l42d1x11t5;
+@66l43d1x44t6;
+<6
+>7
+c92
+#10@141i151l82x6 12 2 28 18 45 3;
+#11@142i156l125x6 12 3 28 18 45 4;
+#10@143i154l98x6 12 12 28 19 46 7;
+#11@144i155l124x6 12 8 28 19 46 9;
+#16@145i153l85x6 12 13 28 20 47 14;
+#26@146i158l148x6 12 26 28 21 48 27;
+#26@147i159l196x6 12 29 28 21 48 16;
+#11@148i152l83x6 12 30 28 22 49 31;
+#21@149i157l146x6 12 33 28 23 50 34;
+#5@150i150l79x6 12 36 28 24 51 37;
+#16@151i160l202x6 12 39 28 25 52 42;
+#46@152i231x3 6 113 112;
+#47@153i232x3 6 81 37;
+#47@154i233x3 6 85 37;
+#47@155i234x3 6 87 37;
+#47@156i235x3 6 109 37;
+#48@157i236x3 6 53 37;
+#48@158i237x3 6 58 37;
+#46@159i238x3 6 111 110;
+#49@160i239x3 6 115 110;
+#49@161i240x3 6 116 112;
+#50@162i241x3 6 79 30;
+#9@163i161l92h1x3 6 12 6;
+#7@164i162h1x5 10 84 81 82 83;
+#27@165i163x4 8 82 31 7;
+#28@166i164x4 8 83 31 7;
+#9@167i165l107h1x3 6 38 84;
+#7@168i166h1x5 10 86 85 7 84;
+#9@169i167l114h1x3 6 8 86;
+#25@170i168l137h1x3 6 26 87;
+#13@171i169h1x5 10 97 88 89 96;
+#29@172i170x2 4 54;
+#30@173i171x4 8 88 53 54;
+#14@174i172x2 4 89;
+#13@175i173x5 10 96 90 35 95;
+#31@176i174x2 4 55;
+#30@177i175x4 8 90 53 55;
+#13@178i176x5 10 95 91 42 94;
+#32@179i177x2 4 56;
+#30@180i178x4 8 91 53 56;
+#13@181i179x5 10 94 92 5 93;
+#33@182i180x2 4 57;
+#30@183i181x4 8 92 53 57;
+#14@184i182x2 4 93;
+#15@185i183l166h1x3 6 40 97;
+#13@186i184h1x5 10 108 98 99 107;
+#29@187i185x2 4 59;
+#30@188i186x4 8 98 58 59;
+#14@189i187x2 4 99;
+#13@190i188x5 10 107 100 101 106;
+#31@191i189x2 4 60;
+#30@192i190x4 8 100 58 60;
+#34@193i191x2 4 61;
+#35@194i192x4 8 101 61 43;
+#13@195i193x5 10 106 102 42 105;
+#32@196i194x2 4 62;
+#30@197i195x4 8 102 58 62;
+#13@198i196x5 10 105 103 14 104;
+#33@199i197x2 4 63;
+#30@200i198x4 8 103 58 63;
+#14@201i199x2 4 104;
+#15@202i200l176h1x3 6 41 108;
+#13@203i201h1x5 10 114 109 111 113;
+#24@204i202x2 4 64;
+#37@205i205x2 4 67;
+#39@206i207x4 8 69 66 68;
+#40@207i208x4 8 110 65 69;
+#36@208i203x4 8 65 64 41;
+#36@209i204x4 8 66 64 40;
+#38@210i206x4 8 68 67 27;
+#24@211i209x2 4 70;
+#37@212i213x2 4 74;
+#39@213i212x4 8 73 71 72;
+#39@214i215x4 8 112 73 75;
+#36@215i210x4 8 71 70 41;
+#36@216i211x4 8 72 70 40;
+#38@217i214x4 8 75 74 27;
+#15@218i216l189h1x3 6 39 114;
+#23@219i217h1x5 10 117 109 115 116;
+#25@220i218l189h1x3 6 29 117;
+#8@221i219x2 4 76;
+#42@222i222h1x4 8 118 77 78;
+#41@223i220x4 8 77 76 9;
+#41@224i221x4 8 78 76 4;
+#20@225i223l132h1x3 6 33 118;
+#9@226i224l133h1x3 6 11 9;
+#20@227i225l153h1x3 6 32 34;
+#43@228i226h1x5 10 5 79 2 6;
+#44@229i227x2 4 80;
+#45@230i228h1x4 8 35 80 34;
+#25@231i229l198h1x3 6 17 16;
+#15@232i230l204h1x3 6 44 42;
+<7
+<1
